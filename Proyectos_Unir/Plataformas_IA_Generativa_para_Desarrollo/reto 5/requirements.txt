@@ -1,0 +1,10 @@
+fastmcp
+openai
+requests
+python-dotenv
+uvicorn
+# Solo Windows (dependencia de `mcp` para el transporte stdio):
+pywin32>=311 ; platform_system == "Windows"
+# Pruebas (opcional):
+pytest
+ipytest
